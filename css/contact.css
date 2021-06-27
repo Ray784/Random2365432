@@ -1,0 +1,26 @@
+#main .container{
+	text-align: center;
+}
+.navbar{
+	z-index: 1000;
+}
+body{
+	max-height: 100vh;
+	height: 100vh;
+	
+}
+
+#main .container p{
+	text-align: center;
+}
+
+#main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 80%;
+	background-image: url('../images/bg.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
