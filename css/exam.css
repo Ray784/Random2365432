@@ -7,7 +7,12 @@
 	padding: 20px;
 }
 
+.container{
+	font-family: Poppins_Medium, sans-serif;
+}
+
 .cards {
+	font-family: Poppins_Medium, sans-serif;
 	box-shadow: 0 0 30px rgb(81 94 125 / 8%);
 	transition: 0.3s;
 	text-align: center;

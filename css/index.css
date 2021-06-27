@@ -18,6 +18,11 @@ body{
 	scroll-behavior: smooth;
 }
 
+p {
+	font-family: Poppins_Light, sans-serif;
+
+}
+
 .bold{
 	font-family: Poppins_Bold, sans-serif;
 }
