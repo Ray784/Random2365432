@@ -1,0 +1,44 @@
+#main{
+	background-color: #f4f7fa;
+}
+
+.row{
+	justify-content: center;
+	padding: 20px;
+}
+
+.cards {
+	box-shadow: 0 0 30px rgb(81 94 125 / 8%);
+	transition: 0.3s;
+	text-align: center;
+	cursor: pointer;
+	margin: 30px;
+	background-color: #fcfcfc;
+	border-radius: 1rem;
+}
+
+.row .cards{
+  animation: growandappear 0.4s ease;
+}
+
+.cards img{
+	height: 250px;
+	width: 80%;
+	padding: 30px;
+	object-fit: contain;
+	object-position: center;
+}
+
+.cards h4{
+	padding-bottom: 20px;
+}
+
+.cards:hover{
+	transform: scale(1.05);
+	color: #000;
+}
+
+a.cards{
+	text-decoration: none;
+	color: #000;
+}
