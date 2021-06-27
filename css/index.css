@@ -103,7 +103,7 @@ p {
 	margin: 5px;
 }
 
-.social:hover{
+a.social:hover {
 	transform: scale(1.1);
 }
 
